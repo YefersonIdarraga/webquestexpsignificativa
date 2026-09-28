@@ -1,8 +1,13 @@
 import React from 'react'
+import Menu from '../components/menu'
 
 const Tarea = () => {
   return (
-    <div>Tarea</div>
+    <>
+      <section>
+        <Menu />
+      </section>
+    </>
   )
 }
 

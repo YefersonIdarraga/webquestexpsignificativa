@@ -1,8 +1,13 @@
 import React from 'react'
+import Menu from '../components/menu'
 
 const Creditos = () => {
   return (
-    <div>Creditos</div>
+    <>
+      <section>
+        <Menu />
+      </section>
+    </>
   )
 }
 
