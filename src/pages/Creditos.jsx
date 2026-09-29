@@ -1,6 +1,5 @@
 import React from 'react'
 import Menu from '../components/menu'
-import Fichajes from '../components/Fichajes'
 
 const Creditos = () => {
   return (
@@ -8,7 +7,6 @@ const Creditos = () => {
       <section>
         <Menu />
       </section>
-      <Fichajes />
     </>
   )
 }
