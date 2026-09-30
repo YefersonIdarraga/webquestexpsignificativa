@@ -7,6 +7,12 @@ const Creditos = () => {
       <section>
         <Menu />
       </section>
+      <section className='contenedor'>
+        <section className='bannertitulo'>
+          <img src="/imagenes/creditosbanner.jpeg" alt="banner" />
+          <h1 className='ctitulo'>Créditos</h1>
+        </section>
+      </section>
     </>
   )
 }

@@ -126,7 +126,7 @@ const Fichajes = () => {
 
   return (
     <div className="docs-container">
-      <h2>Fichajes</h2>
+      <h2 className='subtitulo'>Fichajes</h2>
 
       {/* Lista de Tarjetas de Documentos */}
       <div className="docs-grid">

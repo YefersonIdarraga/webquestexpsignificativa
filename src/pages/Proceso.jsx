@@ -7,6 +7,12 @@ const Proceso = () => {
       <section>
         <Menu />
       </section>
+      <section className='contenedor'>
+        <section className='bannertitulo'>
+          <img src="/imagenes/procesobanner.jpeg" alt="banner" />
+          <h1 className='ctitulo'>Proceso</h1>
+        </section>
+      </section>
     </>
   )
 }

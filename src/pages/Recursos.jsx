@@ -8,6 +8,12 @@ const Recursos = () => {
       <section>
         <Menu />
       </section>
+      <section className='contenedor'>
+        <section className='bannertitulo'>
+          <img src="/imagenes/recursosbanner.jpeg" alt="banner" />
+          <h1 className='ctitulo'>Recursos</h1>
+        </section>
+      </section>
       <Fichajes />
     </>
   )

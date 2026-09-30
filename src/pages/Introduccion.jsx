@@ -10,6 +10,9 @@ const Introduccion = () => {
         <Menu />
     </section>
         <CarruselIntroduccion />
+    <section className='contenedor'>
+      <h1 className='ctitulo cintro'>Introducción</h1>
+    </section>
     </>
   )
 }

@@ -1,0 +1,60 @@
+.contenedor{
+    
+}
+
+/* Contenedor principal del banner */
+.bannertitulo {
+  position: relative;
+  width: 100%;
+  height: 350px; /* Ajusta la altura que prefieras para el banner */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 12px; /* Opcional: bordes redondeados */
+}
+
+/* Imagen de fondo ocupando todo el contenedor */
+.bannertitulo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Mantiene la proporción de la imagen sin deformarla */
+  object-position: center; /* Centra la imagen */
+  z-index: 1; /* Queda en la capa inferior */
+}
+
+/* Texto centrado por encima de la imagen */
+.ctitulo {
+  position: relative;
+  z-index: 2; /* Queda por encima de la imagen */
+  color: #ffffff; /* Texto blanco para resaltar sobre la imagen */
+  font-size: 5rem;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6); /* Sombra para mejorar la lectura */
+}
+
+.ctitulo.cintro {
+    color: #0369a1;
+}
+
+.subtitulo{
+    color: #0369a1;
+    font-size: 2rem;
+}
+
+/* Filtro oscuro para resaltar el título */
+.bannertitulo::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.35); /* Capa translúcida */
+  z-index: 1;
+}
