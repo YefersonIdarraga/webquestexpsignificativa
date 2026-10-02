@@ -1,6 +1,17 @@
 .contenedor{
-    
+  width: 100%;
 }
+
+.subcontainer{
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* .parrafo{
+  width: 50%;
+  margin: 0 auto;
+} */
 
 /* Contenedor principal del banner */
 .bannertitulo {
@@ -57,4 +68,46 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.35); /* Capa translúcida */
   z-index: 1;
+}
+
+/* SUBCONTAINER */
+
+.contenido-tarea {
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+.subtitulo-secundario {
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.lista-evidencias, .lista-productos {
+  width: 80%;
+  margin: 1rem auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.lista-evidencias li, .lista-productos li {
+  margin-bottom: 0.5rem;
+}
+
+.bloque-pregunta {
+  background-color: #f8fafc;
+  border-left: 4px solid #0284c7;
+  padding: 1.5rem;
+  margin: 2rem auto;
+  width: 85%;
+  border-radius: 0 8px 8px 0;
+}
+
+.pregunta-texto {
+  font-style: italic;
+  font-weight: 600;
+  color: #1e293b;
+  margin-top: 0.8rem;
+  font-size: 1.05rem;
 }
