@@ -1,0 +1,90 @@
+<svg id="edu-favicon-svg" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                <defs>
+                  <!-- Theme Gradients (Will be updated dynamically) -->
+                  <linearGradient id="bgGrad" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#090d16"></stop>
+                    <stop offset="100%" stop-color="#0f172a"></stop>
+                  </linearGradient>
+
+                  <linearGradient id="primaryGrad" x1="64" y1="64" x2="448" y2="448" gradientUnits="userSpaceOnUse">
+                    <stop id="pGrad1" offset="0%" stop-color="#22d3ee"></stop>
+                    <stop id="pGrad2" offset="50%" stop-color="#0284c7"></stop>
+                    <stop id="pGrad3" offset="100%" stop-color="#4f46e5"></stop>
+                  </linearGradient>
+
+                  <linearGradient id="accentGrad" x1="120" y1="120" x2="392" y2="392" gradientUnits="userSpaceOnUse">
+                    <stop id="aGrad1" offset="0%" stop-color="#38bdf8"></stop>
+                    <stop id="aGrad2" offset="100%" stop-color="#818cf8"></stop>
+                  </linearGradient>
+
+                  <linearGradient id="bookPageGrad" x1="120" y1="180" x2="392" y2="380" gradientUnits="userSpaceOnUse">
+                    <stop id="bGrad1" offset="0%" stop-color="#ffffff" stop-opacity="0.95"></stop>
+                    <stop id="bGrad2" offset="100%" stop-color="#e0f2fe" stop-opacity="0.8"></stop>
+                  </linearGradient>
+
+                  <filter id="svgGlow" x="-20%" y="-20%" width="140%" height="140%">
+                    <feGaussianBlur stdDeviation="8" result="blur"></feGaussianBlur>
+                    <feComposite in="SourceGraphic" in2="blur" operator="over"></feComposite>
+                  </filter>
+                </defs>
+
+                <!-- Container Shield -->
+                <rect width="512" height="512" rx="120" fill="url(#bgGrad)"></rect>
+                <rect x="12" y="12" width="488" height="488" rx="108" fill="none" stroke="url(#primaryGrad)" stroke-width="6" stroke-opacity="0.5"></rect>
+
+                <!-- Tech Matrix Grid Background -->
+                <g stroke="url(#primaryGrad)" stroke-width="2" stroke-opacity="0.15">
+                  <line x1="64" y1="128" x2="448" y2="128"></line>
+                  <line x1="64" y1="256" x2="448" y2="256"></line>
+                  <line x1="64" y1="384" x2="448" y2="384"></line>
+                  <line x1="128" y1="64" x2="128" y2="448"></line>
+                  <line x1="256" y1="64" x2="256" y2="448"></line>
+                  <line x1="384" y1="64" x2="384" y2="448"></line>
+                </g>
+
+                <!-- Neural Network Connections behind Book -->
+                <path d="M 128 128 L 256 80 L 384 128 L 384 256 L 256 320 L 128 256 Z" fill="none" stroke="url(#accentGrad)" stroke-width="3" stroke-dasharray="6 6" stroke-opacity="0.6"></path>
+                <g fill="url(#accentGrad)" filter="url(#svgGlow)">
+                  <circle cx="128" cy="128" r="8"></circle>
+                  <circle cx="256" cy="80" r="10"></circle>
+                  <circle cx="384" cy="128" r="8"></circle>
+                  <circle cx="128" cy="256" r="8"></circle>
+                  <circle cx="384" cy="256" r="8"></circle>
+                </g>
+
+                <!-- Digital Open Book / Tablet Base -->
+                <!-- Left Page -->
+                <path d="M 256 360 C 210 330, 150 330, 100 345 L 100 205 C 150 190, 210 190, 256 220 Z" fill="url(#bookPageGrad)"></path>
+                <!-- Right Page -->
+                <path d="M 256 360 C 302 330, 362 330, 412 345 L 412 205 C 362 190, 302 190, 256 220 Z" fill="url(#bookPageGrad)"></path>
+                
+                <!-- Book Spine / Center Glow -->
+                <path d="M 256 220 L 256 370" stroke="url(#primaryGrad)" stroke-width="6" stroke-linecap="round"></path>
+
+                <!-- Circuit Lines inside Book Pages -->
+                <!-- Left Page Circuits -->
+                <path d="M 140 240 L 200 240 L 220 260" stroke="url(#primaryGrad)" stroke-width="4" stroke-linecap="round" fill="none"></path>
+                <circle cx="140" cy="240" r="5" fill="#0284c7"></circle>
+                <path d="M 130 280 L 180 280" stroke="url(#primaryGrad)" stroke-width="4" stroke-linecap="round" fill="none"></path>
+                <circle cx="180" cy="280" r="5" fill="#0284c7"></circle>
+
+                <!-- Right Page Circuits -->
+                <path d="M 372 240 L 312 240 L 292 260" stroke="url(#primaryGrad)" stroke-width="4" stroke-linecap="round" fill="none"></path>
+                <circle cx="372" cy="240" r="5" fill="#0284c7"></circle>
+                <path d="M 382 280 L 332 280" stroke="url(#primaryGrad)" stroke-width="4" stroke-linecap="round" fill="none"></path>
+                <circle cx="332" cy="280" r="5" fill="#0284c7"></circle>
+
+                <!-- Graduation Cap / Digital Knowledge Crown -->
+                <path d="M 256 110 L 360 155 L 256 200 L 152 155 Z" fill="url(#primaryGrad)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round"></path>
+                <path d="M 360 155 L 360 195 L 350 205" stroke="#38bdf8" stroke-width="4" stroke-linecap="round" fill="none"></path>
+                <circle cx="350" cy="205" r="6" fill="#22d3ee" filter="url(#svgGlow)"></circle>
+
+                <!-- Glowing Core Spark / AI Innovation Atom at Center -->
+                <g filter="url(#svgGlow)">
+                  <path d="M 256 130 Q 256 155 281 155 Q 256 155 256 180 Q 256 155 231 155 Q 256 155 256 130 Z" fill="#ffffff"></path>
+                </g>
+
+                <!-- Base Pedestal / Inclusion Base -->
+                <path d="M 160 410 C 220 395, 292 395, 352 410 L 370 435 C 300 420, 212 420, 142 435 Z" fill="url(#primaryGrad)"></path>
+                <circle cx="256" cy="415" r="8" fill="#ffffff" filter="url(#svgGlow)"></circle>
+              </svg>

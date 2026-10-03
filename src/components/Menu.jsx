@@ -21,6 +21,12 @@ const Menu = () => {
 
   const closeMenu = () => {
     setIsOpen(false);
+    // Desplaza la página al inicio (coordenadas x:0, y:0)
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth' // Puedes cambiar 'smooth' por 'instant' si prefieres que suba de golpe
+    });
   };
 
   return (
