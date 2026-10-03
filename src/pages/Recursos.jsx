@@ -87,7 +87,7 @@ const Recursos = () => {
             
             <button 
               className="btn-abrir-embed principal"
-              onClick={() => abrirModal('Ajedrez Estratégico en Canva', 'https://ajedrez-estrategico.my.canva.site/')}
+              onClick={() => abrirModal('Ajedrez Estratégico en Canva', 'https://www.canva.com/design/DAG57SzMEdo/0brzXdvs9nB658weF5u_VQ/view?embed')}
             >
               ♟️ Abrir propuesta de Canva en vista previa
             </button>
